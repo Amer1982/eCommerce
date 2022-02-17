@@ -1,0 +1,108 @@
+
+body{
+    background-color:#e6e6e6;
+    height: 100vh;
+}
+
+#sidebar.header{
+     padding: 10px 15px;
+}
+
+.vertical-nav{
+    /*margin-top: 20vh;*/
+    background-color:#4527A0;
+    
+}
+.brand-name-container{
+    padding: 0;
+    margin: 9px 10px 0px 2px;
+}
+
+.brand-name{
+    color: #ccccff;
+    margin: 0px;
+}
+.brand-subname{
+    color: #f0ad4e;   
+}
+#v-pills-tab{
+    list-style-type: none;
+    /*position:relative;*/
+    padding: 0px 20px;
+    margin-top:60px;
+    background-color: #4527A0;
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+.nav-item{
+    background-color: #3F51B5;
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    margin: 5px ;
+    text-decoration: none;
+}
+.nav-item:hover{
+    background-color: #ccccff;
+    box-shadow: 0 0 0 0.4em rgb(255,255,255,0.1);
+    cursor: pointer;
+}
+.nav-item.active{
+    background-color: #ccccff;
+        box-shadow: 0 0 0.4em rgb(255,255,255,0.1);
+}
+.nav-link{
+    color:#f0ad4e;
+    letter-spacing: 0.5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav-item:hover.nav-link{
+    color:#ccccff;
+}
+.nav-item:hover.nav-link{
+    color:#ccccff;
+    font-weight: 500;
+    
+}
+.nav-link i{
+    font-size: 18px;
+}
+.contacts-list{
+   
+    padding-left: 30px;
+    list-style-type: none;
+}
+.contacts-list-container.title{
+    
+    letter-spacing: 0.5px;
+}
+
+.social-media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    
+}
+.social-media{
+    display: block;
+    width: 40px;
+    text-align: center;
+}
+
+
+.nav-tabs{
+    background-color: #4527A0;
+    
+}
+
+h5{
+    color: #f0ad4e
+}
+.text1{
+    color: #4527A0
+}
+
